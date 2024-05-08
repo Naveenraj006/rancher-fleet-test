@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: php-redis
-        image: react-express-mysql_frontend:latest
+        image: docker.io/bitnami/nginx:1.25.5-debian-12-r0
         resources:
           limits:
             cpu: 150m
