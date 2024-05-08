@@ -15,8 +15,8 @@ spec:
         tier: frontend
     spec:
       containers:
-      - name: php-redis
-        image: docker.io/bitnami/nginx:1.25.5-debian-12-r0
+      - name: nginx-sample-fleet
+        image: nginx:latest
         resources:
           limits:
             cpu: 150m
