@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nginx-sample-fleet
-        image: nginx:latest
+        image: harbor.apps.estreetz.com/uniwork/test-reactjs
         resources:
           limits:
             cpu: 150m
