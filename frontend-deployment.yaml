@@ -15,7 +15,7 @@ spec:
         tier: frontend
     spec:
       containers:
-      - image: harbor.apps.estreetz.com/uniwork/test-reactjs
+      - image: harbor.apps.estreetz.com/uniwork/test-reactjs:latest
         name: nginx-sample-fleet
         ports:
         - containerPort: 80
