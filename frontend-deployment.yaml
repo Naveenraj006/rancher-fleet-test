@@ -24,4 +24,4 @@ spec:
         ports:
         - containerPort: 80
       imagePullSecrets:
-        - name: harbor #secretname      
+      - name: harbor #secretname      
