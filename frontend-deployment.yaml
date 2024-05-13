@@ -17,11 +17,11 @@ spec:
       containers:
       - name: nginx-sample-fleet
         image: harbor.apps.estreetz.com/uniwork/test-reactjs:latest
-        imagePullSecrets:
-          - name: harbor #secretname
         resources:
           limits:
             cpu: 150m
             memory: 100Mi
         ports:
         - containerPort: 80
+      imagePullSecrets:
+        - name: harbor #secretname      
