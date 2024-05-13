@@ -18,7 +18,7 @@ spec:
       - name: nginx-sample-fleet
         image: harbor.apps.estreetz.com/uniwork/test-reactjs:latest
         imagePullSecrets:
-          - name: harbor
+          - name: harbor #secretname
         resources:
           limits:
             cpu: 150m
